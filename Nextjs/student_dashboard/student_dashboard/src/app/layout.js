@@ -27,14 +27,17 @@ export default function RootLayout({ children }) {
 
         <div>
           <nav>
-            <Link href='/'>Home</Link>
-            <Link href='./students'>Students</Link>
-            <Link href='./courses'>Courses</Link>
-            <Link href='./settings'>Settings</Link>
+            <Link href='/'>Home______</Link>
+            <Link href='./students'>Students______</Link>
+            <Link href='./courses'>Courses______</Link>
+            <Link href='./settings'>Settings______</Link>
+            <Link href='./login'>Login</Link>
           </nav>
+          <br></br>
           <div>
             <h1> Welcome to Students Dashboard</h1>
           </div>
+          <br></br>
         </div>
         
         {children}
